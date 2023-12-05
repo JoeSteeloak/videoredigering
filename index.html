@@ -5,14 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Filma och Redigera</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/main.js"></script>
 </head>
 
 <body>
-    <header></header>
+    <header><a href="index.html"><img src="images/logo.svg" alt="logo" id="logo"></a>
+        <!-- Menyknapp för att öppna mobilmenyn-->
+        <button class="menu-btn open" id="open-menu">
+            <span class="menu-icon">
+                <span class="bars"></span>
+                <span class="bars"></span>
+                <span class="bars"></span>
+            </span>
+            <span class="menu-text">Meny</span>
+        </button>
+        <!-- navigering -->
+        <nav id="nav-menu">
+            <!-- Knapp som visas om mobilmenyn är utfälld-->
+            <button class="menu-btn close" id="close-menu">
+                <span class="menu-icon">
+                    <span class="bars cross1"></span>
+                    <span class="bars cross2"></span>
+                </span>
+                <span class="menu-text">Stäng meny</span>
+            </button>
+            <ul>
+                <li><a href="index.html">moment 3.1 - Filma och Redigera</a></li>
+                <li><a href="videobg.html">moment 3.2 - Videobakgrund</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section>
             <h1>Filma och Redigera</h1>
@@ -20,7 +47,7 @@
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
-            <h2>Frågeställning</h2>
+            <h2>Frågeställning - Moment 3.1</h2>
             <h3>Vilka slutsatser har du dragit av att genomföra uppgiften? Vad har gått bra/dåligt/kunnat göras
                 annorlunda?</h3>
             <p>För det första så är det svårt att spela in film, särskilt jämfört med att sen klippa ihop allt. Ska jag
