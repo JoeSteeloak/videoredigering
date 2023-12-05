@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+
+}
+
+section,
+h1, footer {
+    padding: 4% 6% 2%;
+    line-height: 1.6rem;
+
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2,
+h3 {
+    line-height: 1.5rem;
+    margin-bottom: 1%;
+    font-size: 1.5rem;
+}
+
+p,
+footer {
+    margin-top: 1%;
+    margin-bottom: 4%;
+    font-size: 1.2rem;
+}
+
+p, h1, h2, h3 {
+    max-width: 36em;
+}
